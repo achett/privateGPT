@@ -1,0 +1,20 @@
+1) Open Command Prompt
+
+2) Change wd
+
+cd D:\Users\achett2\Documents\GitHub\privateGPT
+
+3) Activate venv
+
+myenv\Scripts\activate
+
+4) (Optional) If ingesting a new data source, update SOURCE_DIRECTORY in .env file and run ingest.py file
+
+python ingest.py
+
+5) Run app
+
+python privateGPT.py
+
+6) Submit a query
+
